@@ -2,7 +2,6 @@ class Solution {
     public int maximumPopulation(int[][] logs) {
       int[] year = new int[2051];
         
-		// O(n) -> n is log.length
 		
         for(int[] log : logs){
             
@@ -23,7 +22,6 @@ class Solution {
             }
         }
         
-        return maxYear; 
-        
+        return maxYear;    
     }
 }
