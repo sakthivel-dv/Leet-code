@@ -18,6 +18,6 @@ class Solution {
             if(nums[mid] <= 0) low=mid+1;  
             else high=mid;
         }
-        return Math.max(countLeft,nums.length-low);
+        return Math.max(countLeft,nums.length-high);
     }
 }
